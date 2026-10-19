@@ -1,0 +1,32 @@
+{
+ "width": 1280,
+ "height": 800,
+ "shots": [
+  {
+   "name": "fire-pit-above",
+   "worldspace_id": 60,
+   "position": [
+    20548.0,
+    -45520.0,
+    60.0
+   ],
+   "yaw": 0.0,
+   "pitch": 30.0,
+   "hfov": 60.0,
+   "note": "above the forge's fire pit, looking down at it"
+  },
+  {
+   "name": "fire-pit-steep",
+   "worldspace_id": 60,
+   "position": [
+    20548.0,
+    -45460.0,
+    70.0
+   ],
+   "yaw": 0.0,
+   "pitch": 50.0,
+   "hfov": 60.0,
+   "note": "steeper view into the fire pit"
+  }
+ ]
+}

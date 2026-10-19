@@ -1,0 +1,335 @@
+{
+  "adapter": {
+    "driver": "",
+    "driver_info": "",
+    "name": "Apple M4 Pro"
+  },
+  "ambient_brightness": 0,
+  "camera": {
+    "position": [
+      0,
+      0,
+      10
+    ],
+    "projection": "orthographic",
+    "vertical_size": 5
+  },
+  "ev100": 9.7,
+  "kind": "converted-effect-palette",
+  "lights": 0,
+  "loader": [
+    {
+      "case": "colour_mid",
+      "palette_format": "Rgba8UnormSrgb",
+      "passed": true
+    },
+    {
+      "case": "colour_hdr_low_row",
+      "palette_format": "Rgba8UnormSrgb",
+      "passed": true
+    },
+    {
+      "case": "colour_clamped_corner",
+      "palette_format": "Rgba8UnormSrgb",
+      "passed": true
+    },
+    {
+      "case": "colour_and_alpha_blend",
+      "palette_format": "Rgba8UnormSrgb",
+      "passed": true
+    },
+    {
+      "case": "alpha_only_blend",
+      "palette_format": "Rgba8UnormSrgb",
+      "passed": true
+    }
+  ],
+  "palette_rgba_u8_rows": [
+    [
+      [
+        40,
+        30,
+        128,
+        20
+      ],
+      [
+        100,
+        30,
+        128,
+        90
+      ],
+      [
+        160,
+        30,
+        128,
+        160
+      ],
+      [
+        220,
+        30,
+        128,
+        230
+      ]
+    ],
+    [
+      [
+        40,
+        100,
+        128,
+        20
+      ],
+      [
+        100,
+        100,
+        128,
+        90
+      ],
+      [
+        160,
+        100,
+        128,
+        160
+      ],
+      [
+        220,
+        100,
+        128,
+        230
+      ]
+    ],
+    [
+      [
+        40,
+        170,
+        128,
+        20
+      ],
+      [
+        100,
+        170,
+        128,
+        90
+      ],
+      [
+        160,
+        170,
+        128,
+        160
+      ],
+      [
+        220,
+        170,
+        128,
+        230
+      ]
+    ],
+    [
+      [
+        40,
+        240,
+        128,
+        20
+      ],
+      [
+        100,
+        240,
+        128,
+        90
+      ],
+      [
+        160,
+        240,
+        128,
+        160
+      ],
+      [
+        220,
+        240,
+        128,
+        230
+      ]
+    ]
+  ],
+  "passed": true,
+  "resolution": [
+    800,
+    500
+  ],
+  "retail_parity": false,
+  "samples": [
+    {
+      "base_color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "base_color_scale": 1.0,
+      "blend": false,
+      "case": "colour_mid",
+      "converted_rgb": [
+        128,
+        133,
+        122
+      ],
+      "expected_linear": [
+        0.24124282598495483,
+        0.2647078037261963,
+        0.2158605307340622,
+        1.0
+      ],
+      "flags1": 16,
+      "max_error_u8": 0,
+      "pixel_y": 50,
+      "reference_rgb": [
+        128,
+        133,
+        122
+      ],
+      "source_grey_alpha_u8": [
+        128,
+        255
+      ]
+    },
+    {
+      "base_color": [
+        0.10000000149011612,
+        0.4000000059604645,
+        0.8999999761581421,
+        1.0
+      ],
+      "base_color_scale": 1.600000023841858,
+      "blend": false,
+      "case": "colour_hdr_low_row",
+      "converted_rgb": [
+        203,
+        63,
+        136
+      ],
+      "expected_linear": [
+        0.9337536692619324,
+        0.020772850140929222,
+        0.3453768491744995,
+        1.0
+      ],
+      "flags1": 16,
+      "max_error_u8": 0,
+      "pixel_y": 150,
+      "reference_rgb": [
+        203,
+        63,
+        136
+      ],
+      "source_grey_alpha_u8": [
+        200,
+        255
+      ]
+    },
+    {
+      "base_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "base_color_scale": 0.75,
+      "blend": false,
+      "case": "colour_clamped_corner",
+      "converted_rgb": [
+        165,
+        176,
+        105
+      ],
+      "expected_linear": [
+        0.536770224571228,
+        0.6535254120826721,
+        0.16189539432525635,
+        1.0
+      ],
+      "flags1": 16,
+      "max_error_u8": 0,
+      "pixel_y": 250,
+      "reference_rgb": [
+        165,
+        176,
+        105
+      ],
+      "source_grey_alpha_u8": [
+        255,
+        255
+      ]
+    },
+    {
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        0.30000001192092896
+      ],
+      "base_color_scale": 1.2000000476837158,
+      "blend": true,
+      "case": "colour_and_alpha_blend",
+      "converted_rgb": [
+        76,
+        173,
+        108
+      ],
+      "expected_linear": [
+        0.08169623464345932,
+        0.8766605257987976,
+        0.25903263688087463,
+        0.7162629961967468
+      ],
+      "flags1": 48,
+      "max_error_u8": 0,
+      "pixel_y": 350,
+      "reference_rgb": [
+        76,
+        173,
+        108
+      ],
+      "source_grey_alpha_u8": [
+        60,
+        180
+      ]
+    },
+    {
+      "base_color": [
+        0.6000000238418579,
+        0.30000001192092896,
+        0.8999999761581421,
+        0.699999988079071
+      ],
+      "base_color_scale": 1.0,
+      "blend": true,
+      "case": "alpha_only_blend",
+      "converted_rgb": [
+        79,
+        65,
+        102
+      ],
+      "expected_linear": [
+        0.18299242854118347,
+        0.09149621427059174,
+        0.274488627910614,
+        0.3717800974845886
+      ],
+      "flags1": 32,
+      "max_error_u8": 0,
+      "pixel_y": 450,
+      "reference_rgb": [
+        79,
+        65,
+        102
+      ],
+      "source_grey_alpha_u8": [
+        150,
+        100
+      ]
+    }
+  ],
+  "space": "exterior",
+  "standard_material": false,
+  "tolerance_u8": 2,
+  "tonemapping": "TonyMcMapface"
+}
